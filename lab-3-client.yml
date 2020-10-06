@@ -1,2 +1,4 @@
-{lucky-word} = 1
-Rabbit's Foot = hola
+---
+wordConfig:
+  preamble: The lucky word is
+  luckyWord: Irish
