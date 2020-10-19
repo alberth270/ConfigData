@@ -1,3 +1,6 @@
 ---
 number-card: 111122223333444
-eureka.client.service-url.defaultZone= http://localhost:8180/eureka/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8180/eureka/
