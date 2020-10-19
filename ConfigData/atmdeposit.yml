@@ -1,1 +1,9 @@
 ---
+# Discovery Server Access
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8180/eureka/
+#Puerto Dinamito
+server:
+  port: ${PORT:${SERVER_PORT:0}}
