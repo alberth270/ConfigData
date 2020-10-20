@@ -6,4 +6,4 @@ eureka:
       defaultZone: http://localhost:8180/eureka/
 #Puerto Dinamito
 server:
-  port: 9002
+  port: ${PORT:0}
