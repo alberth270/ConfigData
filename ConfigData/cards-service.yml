@@ -9,4 +9,4 @@ eureka:
       defaultZone: http://localhost:8180/eureka/
 #Puerto dinamico
 server:
-  port: ${PORT:0}
+  port: 9004
