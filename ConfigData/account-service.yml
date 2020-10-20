@@ -2,9 +2,11 @@
 success: true
 # Discovery Server Access
 eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
     service-url:
       defaultZone: http://localhost:8180/eureka/
 #Puerto Dinamito
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: ${PORT:0}  
