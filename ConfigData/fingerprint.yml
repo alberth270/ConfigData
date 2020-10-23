@@ -1,11 +1,6 @@
 ---
 entityName: Core
 success: true
-eureka:
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-  client:
-    service-url:
-      defaultZone: http://localhost:8180/eureka/
+
 server:
   port: 9003
