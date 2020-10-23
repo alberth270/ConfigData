@@ -1,12 +1,6 @@
 ---
 number-card: 111122223333444
-# Discovery Server Access
-eureka:
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-  client:
-    service-url:
-      defaultZone: http://localhost:8180/eureka/
+
 #Puerto dinamico
 server:
   port: 9004
